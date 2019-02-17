@@ -15,5 +15,13 @@ public class Main {
                 "324GBC",
                 Color.BLACK,
                 false);
+
+        System.out.println("my car's lic plate: " + myCar.licensePlate );
+        System.out.println("bret car's lic plate: " + bretCar.licensePlate );
+
+        System.out.println(myCar.paintColor);
+        myCar.changePaintColor(Color.RED);
+        System.out.println(myCar.paintColor);
+
     }
 }
